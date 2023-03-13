@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import ProductMenu from './components/ProductMenu.vue';
 </script>
 
 <template>
@@ -18,30 +19,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </header>
   <div class="info_body">
     <div class="product_menu">
-      <ul>
-        <div class="list_category"> 
-          <li class="bald_menu_item">MEN</li>
-          <ul class="sub_category_list">
-            <li>SUITS</li>
-            <li>OUTERWEAR</li>
-            <li>SHIRTS</li>
-            <li>BLAZERS</li>
-            <li>POLOS & T-SHIRTS</li>
-            <li>PANTS</li>
-          </ul>
-        </div>
-        <div class="list_category"> 
-          <li class="bald_menu_item">WOMEN</li>
-          <ul class="sub_category_list">
-            <li>SUITS</li>
-            <li>OUTERWEAR</li>
-            <li>SHIRTS</li>
-            <li>BLAZERS</li>
-            <li>POLOS & T-SHIRTS</li>
-            <li>PANTS</li>
-          </ul>
-        </div>
-      </ul>
+      <ProductMenu />
     </div>
     <RouterView />
   </div>
