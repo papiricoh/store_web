@@ -115,4 +115,8 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(https://www.codingid.com/wp-content/uploads/2019/12/Hero-Banner-Placeholder-Dark-1024x480-1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
