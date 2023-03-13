@@ -20,7 +20,7 @@ export default {
         <li><RouterLink @click="product_menu = true" class="text_deco_none" to="/">Home</RouterLink></li>
         <li><RouterLink @click="product_menu = true" class="text_deco_none" to="/about">About</RouterLink></li>
       </ul>
-      <img height="140" src="https://dieselpunkcore.com/wp-content/uploads/2014/06/logo-placeholder.png" alt="logo">
+      <RouterLink @click="product_menu = true" to="/" ><img height="140" src="/logo.jpeg" alt="logo"></RouterLink>
       <ul class="horizontal_menu">
         <li><RouterLink @click="product_menu = false" class="text_deco_none" to="/log-in">Log-In</RouterLink></li>
         <li><RouterLink @click="product_menu = false" class="text_deco_none" to="/register">Register</RouterLink></li>

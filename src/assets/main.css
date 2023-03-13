@@ -1,7 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Hanken+Grotesk:wght@200&family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 * {
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+#main_title {
+  font-size: 8rem;
+  font-weight: bolder;
+  font-family: 'Caveat', cursive;
+  background: -webkit-linear-gradient(#b81616, #afa40a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 body {
@@ -52,6 +61,12 @@ ul {
 
 .bald_menu_item {
   font-weight: 1000;
+  color: rgb(172, 6, 6);
+}
+
+.bald_menu_item:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
 
 .list_category {
@@ -113,10 +128,35 @@ ul {
   height: 24rem;
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url(https://www.codingid.com/wp-content/uploads/2019/12/Hero-Banner-Placeholder-Dark-1024x480-1.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 1fr;
+}
+
+.card {
+  border-radius: .4rem;
+  margin: .8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_title {
+  text-align: center;
+  font-weight: 550;
+}
+
+.card_price {
+  text-align: center;
+  font-weight: bold;
+  color: darkred;
 }

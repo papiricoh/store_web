@@ -1,5 +1,33 @@
+<script setup>
+import ProductCard from './ProductCard.vue';
+</script>
+
+<script>
+export default {
+  data() {
+    return {
+      debug_number_of_cards: 4,
+    }
+  },
+}
+</script>
+
 <template>
   <div class="flex_column">
-    <div class="hero">ECommerce Web</div>
+    <div class="hero">
+      <div id="main_title">Scylla</div>
+      <div class="title">Hypebeast</div>
+    </div>
+    <div class="section">
+      <div>
+        <ProductCard />
+      </div>
+      <div>
+        <ProductCard />
+      </div>
+      <div>
+        <ProductCard />
+      </div>
+    </div>
   </div>
 </template>
