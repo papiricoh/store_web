@@ -93,3 +93,9 @@ ul {
   font-size: xx-large;
   font-weight: 1000;
 }
+
+.input_bar {
+  font-size: larger;
+  width: 18rem;
+  margin: .2rem;
+}
