@@ -42,6 +42,7 @@ ul {
 
 .product_menu {
   margin-right: 3rem;
+  min-width: 10rem;
 }
 
 .info_body {
