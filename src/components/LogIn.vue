@@ -5,6 +5,7 @@
             <p>Email And Password required</p>
             <input class="input_bar" type="email" placeholder="ecomerce@gmail.com">
             <input class="input_bar" type="password" placeholder="********">
+            <button>SUBMIT</button>
         </div>
     </div>
 </template>

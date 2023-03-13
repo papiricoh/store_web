@@ -99,3 +99,10 @@ ul {
   width: 18rem;
   margin: .2rem;
 }
+
+.input_bar:focus-visible {
+  outline-color: black;
+  outline-offset: 0;
+  outline-width: 1px;
+  outline-style: solid;
+}
