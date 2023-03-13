@@ -12,7 +12,7 @@ import ProductMenu from './components/ProductMenu.vue';
       </ul>
       <img height="140" src="https://dieselpunkcore.com/wp-content/uploads/2014/06/logo-placeholder.png" alt="logo">
       <ul class="horizontal_menu">
-        <li><RouterLink class="text_deco_none" to="/">Log-In</RouterLink></li>
+        <li><RouterLink class="text_deco_none" to="/log-in">Log-In</RouterLink></li>
         <li><RouterLink class="text_deco_none" to="/about">Register</RouterLink></li>
       </ul>
     </div>
