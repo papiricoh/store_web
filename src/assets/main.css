@@ -84,6 +84,11 @@ ul {
   cursor: pointer;
 }
 
+.sub_category_list>*:active {
+  text-decoration: underline;
+  color: #b81616;
+}
+
 .flex_center {
   display: flex;
   justify-content: center;
@@ -152,6 +157,17 @@ ul {
 .card_title {
   text-align: center;
   font-weight: 550;
+}
+
+
+.card_title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card_title:active {
+  text-decoration: underline;
+  color: #b81616;
 }
 
 .card_price {

@@ -3,7 +3,7 @@ export default {
   data() {
     return {
       product_name: "Example Name",
-      img_route: "https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-network-placeholder-png-image_3416659.jpg",
+      img_route: "https://images.pexels.com/photos/991509/pexels-photo-991509.jpeg",
       product_price: 100.5,
     }
   },
