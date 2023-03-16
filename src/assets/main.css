@@ -13,6 +13,11 @@
   -webkit-text-fill-color: transparent;
 }
 
+
+#main_subtitle {
+  text-shadow: 0 1px 4px rgba(200, 200, 200, 0.411);
+}
+
 body {
   margin: 0;
 }
@@ -136,7 +141,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(https://www.codingid.com/wp-content/uploads/2019/12/Hero-Banner-Placeholder-Dark-1024x480-1.png);
+  background-image: url(https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -171,7 +176,7 @@ ul {
 }
 
 .card_price {
+  font-size: smaller;
   text-align: center;
   font-weight: bold;
-  color: darkred;
 }
