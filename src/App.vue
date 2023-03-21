@@ -9,6 +9,7 @@ export default {
     return {
       product_menu: true,
       identifier: null,
+      user_name: "John_doe",
     }
   },
 }
@@ -23,8 +24,10 @@ export default {
       </ul>
       <RouterLink @click="product_menu = true" to="/" ><img height="140" src="/logo.jpeg" alt="logo"></RouterLink>
       <ul class="horizontal_menu">
-        <li><RouterLink @click="product_menu = false" class="text_deco_none" to="/log-in">Log-In</RouterLink></li>
-        <li><RouterLink @click="product_menu = false" class="text_deco_none" to="/register">Register</RouterLink></li>
+        <li v-if="identifier == null"><RouterLink  @click="product_menu = false" class="text_deco_none" to="/log-in">Log-In</RouterLink></li>
+        <li v-else class="text_deco_none" @click="identifier = null">{{user_name}}</li>
+        <li v-if="identifier == null"><RouterLink  @click="product_menu = false" class="text_deco_none" to="/register">Register</RouterLink></li>
+        <li v-else class="text_deco_none" @click="identifier = null">Log Off</li>
       </ul>
     </div>
   </header>
