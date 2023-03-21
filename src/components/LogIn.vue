@@ -21,7 +21,8 @@ export default {
             }
             return response.json();
         }).then(function(data) {
-            console.log('Tried to Log In');
+            // MANAGE IDENTIFIER data.identifier
+            console.log(data); 
         });
     }
   }
