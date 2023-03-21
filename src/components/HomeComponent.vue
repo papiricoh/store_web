@@ -19,15 +19,7 @@ export default {
       <div class="title" id="main_subtitle">Hypebeast</div>
     </div>
     <div class="section">
-      <div>
-        <ProductCard />
-      </div>
-      <div>
-        <ProductCard />
-      </div>
-      <div>
-        <ProductCard />
-      </div>
+      <ProductCard v-for="card in debug_number_of_cards"/>
     </div>
   </div>
 </template>

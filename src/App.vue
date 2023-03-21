@@ -7,7 +7,8 @@ import ProductMenu from './components/ProductMenu.vue';
 export default {
   data() {
     return {
-      product_menu: true
+      product_menu: true,
+      identifier: null,
     }
   },
 }

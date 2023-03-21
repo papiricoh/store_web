@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Hanken+Grotesk:wght@200&family=Rajdhani&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 * {
   font-family: 'Rajdhani', sans-serif;
 }
@@ -9,6 +10,7 @@
   font-weight: bolder;
   font-family: 'Caveat', cursive;
   background: -webkit-linear-gradient(#b81616, #afa40a);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -145,10 +147,14 @@ ul {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .section {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .card {
